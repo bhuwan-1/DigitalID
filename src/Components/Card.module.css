@@ -1,0 +1,111 @@
+.card {
+  height: 85vh;
+  width: 300px;
+  background-color: white;
+  position: absolute;
+  top: 50px;
+  border-radius: 7px;
+}
+
+.pfp {
+  width: inherit;
+  height: 217px;
+  background-image: url("../images/SF.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.det {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  background-color: #1a1b21;
+}
+
+.det > h3 {
+  color: #ffffff;
+  background: none;
+}
+
+.job {
+  color: #f3bf99;
+  background: none;
+  font-size: 13px;
+  margin-top: -13px;
+}
+
+.site {
+  color: #ffffff;
+  font-size: 11.7px;
+  margin-top: -13px;
+  background: none;
+}
+
+.btns {
+  background: #1a1b21;
+  height: 60px;
+
+}
+
+.btns > div {
+  background: #1a1b21;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.em_btn {
+  background-color: white;
+  color: white;
+  border: none;
+  outline: none;
+  height: 34px;
+  width: 119px;
+  border-radius: 6px;
+  margin-left: 30px;
+
+  /* padding: 9px, 13px, 9px, 11px; */
+}
+
+.main_cont{
+  margin-top: -22px;
+  background: #1a1b21;
+  padding-left: 20px;
+  color: white;
+}
+
+.main_cont > p{
+  font-size: 11px;
+  margin-top: -7px;
+  color: #DCDCDC;
+}
+
+.main_cont > h4{
+  font-size: 14px;
+}
+
+.foot{
+  background-color: #161619;
+  height: 40px;
+  margin-top: -12px ;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.foot > div{
+  display: flex;
+  width: inherit;
+  height: 20px;
+  font-size: x-large;
+  justify-content: space-between;
+  align-items: center;
+  color:  #918E9B;
+}
